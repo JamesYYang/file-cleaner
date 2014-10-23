@@ -13,7 +13,7 @@ npm install file-cleaner -g
 
 Go to any folder that you want to clean files. Open command line.
 
-```
+```bat
 //show help info
 file-cleaner -h
 
