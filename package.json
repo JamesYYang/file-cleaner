@@ -1,0 +1,28 @@
+{
+  "name": "file-cleaner",
+  "version": "0.0.1",
+  "description": "Remove file with given pattern.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "./bin/file-cleaner",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JamesYYang/file-cleaner"
+  },
+  "keywords": [
+    "file",
+    "cleaner"
+  ],
+  "author": "James Yang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JamesYYang/file-cleaner/issues"
+  },
+  "homepage": "https://github.com/JamesYYang/file-cleaner",
+  "dependencies": {
+    "commander": "^2.3.0",
+    "minimatch": "^1.0.0"
+  }
+}
