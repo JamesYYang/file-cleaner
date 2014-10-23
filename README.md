@@ -14,11 +14,15 @@ npm install file-cleaner -g
 Go to any folder that you want to clean files. Open command line.
 
 ```bat
-//show help info
-file-cleaner -h
+  Usage: file-cleaner [options] <pattern>
 
-//remove all js file with resursion
-file-cleaner -r *.js
+  Options:
+
+    -h, --help       output usage information
+    -V, --version    output the version number
+    -r, --recursion  recursion remove
+    -l, --list       list matched file without remove
+
 ```
 
 ## License
